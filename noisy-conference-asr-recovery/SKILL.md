@@ -14,7 +14,7 @@ description: >
   return to conference-paragraph-transcript for the paragraph manuscript.
 ---
 
-# 嗨杂会议录音：禁止把人声当静音
+# 嘈杂会议录音：禁止把人声当静音
 
 会场话筒、空调、翻页、远处发言会被 **VAD / no-speech 阈值** 判成静音。Grok 聊天里的 `<AUDIO>` 转写尤其如此。**再传同一份整场文件，内置 ASR 仍会丢掉同一段。**
 

@@ -4,6 +4,8 @@ Personal collection of custom skills used with Grok for legal research, contract
 
 These skills are tailored for in-house counsel work involving Chinese-listed company operations, Polish subsidiary management, battery materials supply chain, EU regulations (PPWR, NZIA, TCA, IAA, etc.), and academic translation workflows.
 
+Each directory is a complete skill: `SKILL.md` plus accessory files (references, scripts, evals, tests, licenses, and templates) where the skill has them. Caches such as `__pycache__` are omitted.
+
 ## Skills Included
 
 - commercial-legal-pl: Polish commercial law contract analysis and drafting (KTZR style)

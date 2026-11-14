@@ -1,0 +1,20 @@
+{
+  "skill": "zsxq-upload-strict",
+  "test_cases": [
+    {
+      "name": "upload_succeeds",
+      "input": "把这个文件附上200字摘要，上传到硅基法学家星球",
+      "assertions": ["creates one topic with both text and file", "reports topic id"]
+    },
+    {
+      "name": "upload_fails_tls",
+      "input": "把这个docx附上摘要发到知识星球",
+      "assertions": ["does not create any topic", "reports TLS/network error", "does not post text-only"]
+    },
+    {
+      "name": "multiple_files",
+      "input": "这三个文件各带200字摘要上传到WTO公共论坛专栏",
+      "assertions": ["each file is posted only if its attachment succeeds", "stops and reports on first failure instead of continuing with text-only"]
+    }
+  ]
+}

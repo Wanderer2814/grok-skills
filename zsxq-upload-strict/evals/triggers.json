@@ -1,0 +1,21 @@
+{
+  "skill": "zsxq-upload-strict",
+  "test_cases": [
+    {
+      "input": "把这个文件附上摘要上传到知识星球",
+      "should_trigger": true
+    },
+    {
+      "input": "发送到硅基法学家星球，带上200字摘要",
+      "should_trigger": true
+    },
+    {
+      "input": "上传到星球WTO公共论坛专栏",
+      "should_trigger": true
+    },
+    {
+      "input": "帮我写一篇文章",
+      "should_trigger": false
+    }
+  ]
+}
