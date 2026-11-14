@@ -1,0 +1,20 @@
+{
+  "skill": "contract-review",
+  "test_cases": [
+    {
+      "name": "saas_review_customer",
+      "input": "Review this SaaS agreement as the customer. Flag liability cap and termination issues.",
+      "assertions": ["Identifies user position as customer", "Flags low liability cap if present", "Provides redline suggestions", "Includes executive summary and risk analysis"]
+    },
+    {
+      "name": "nda_review",
+      "input": "Check this NDA for the receiving party. Is the definition too broad?",
+      "assertions": ["Asks or assumes receiving party position", "Reviews NDA-specific checklist items", "Flags broad confidential information definition if applicable"]
+    },
+    {
+      "name": "pre_signing_check",
+      "input": "Review the attached draft contract and note any blanks or missing exhibits.",
+      "assertions": ["Performs pre-review checklist", "Flags blank fields and missing exhibits prominently", "Notes document status"]
+    }
+  ]
+}

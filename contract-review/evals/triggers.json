@@ -1,0 +1,25 @@
+{
+  "skill": "contract-review",
+  "test_cases": [
+    {
+      "input": "review this contract",
+      "should_trigger": true
+    },
+    {
+      "input": "analyze this agreement for risks",
+      "should_trigger": true
+    },
+    {
+      "input": "check the NDA terms",
+      "should_trigger": true
+    },
+    {
+      "input": "what is the weather today",
+      "should_trigger": false
+    },
+    {
+      "input": "summarize this news article",
+      "should_trigger": false
+    }
+  ]
+}
